@@ -4,35 +4,51 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
+		slug: 'Medical Image Classification',
 		color: '#5e95e3',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Brain Scan classification based on a project done by a research paper.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Data Science Project where we are trying to classify brain scans with different diseases using different types of nueral networks.',
+		links: [{ to: 'https://github.com/VarunCho19/MedicalImageClassifcation', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		name: 'Medical Image Classification',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		skills: getSkills('py'),
+		type: 'Data Science'
+	},
+	{
+		slug: 'Real-Fake-AI-Image',
+		color: '#5e95e3',
+		description:
+			'As AI-generated imagery rapidly evolves, ethical concerns arise prominently in areas like deepfake technology and the arts. In artistic domains, the replication of unique styles through AI can lead to plagiarism and dilute the individuality that defines human creativity. To address these challenges, we applied our machine learning expertise using a dataset from Kaggle, which comprised approximately 1,700 authentic artworks and 1,700 AI-generated pieces modeled after Van Gogh’s style [1]. This project allowed us to explore various strategies, which we will detail throughout this paper.',
+		shortDescription:
+			'Data Science Project where we are trying to classify stabe diffused generated images as real or AI generated',
+		links: [{ to: 'https://github.com/VarunCho19/dsl_final_project_ai_vs_real_art', label: 'GitHub' }, {to: 'https://medium.com/@abbykremer/classification-of-ai-generated-artwork-93926ba46991', label: 'Medium'}],
+		logo: Assets.Unknown,
+		name: 'Real versus Fake AI Generated Image Classifcation',
+		period: {
+			from: new Date()
+		},
+		skills: getSkills('py','pandas'),
+		type: 'Data Science'
 	},
 	{
 		slug: 'slick-portfolio-svelte',
 		color: '#ff3e00',
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit. I want to include a machine learning component to help answer question about me.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'My Own Personal Website',
+		links: [{ to: 'https://github.com/VarunCho19/MyWebsitePortfolio', label: 'GitHub' }],
 		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		name: 'Varun Website Portfolio',
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		skills: getSkills('svelte', 'ts', 'tailwind','py'),
 		type: 'Website Template',
 		screenshots: [
 			{
