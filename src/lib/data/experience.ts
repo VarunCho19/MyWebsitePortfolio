@@ -12,7 +12,7 @@ export const items: Array<Experience> = [
 		location: 'Rowayton, CT',
 		period: { from: new Date() },
 		skills: getSkills('py', 'pandas'),
-		name: 'Incoming Quantitative Execution Intern',
+		name: 'Quantitative Execution Intern',
 		color: 'red',
 		links: [],
 		logo: Assets.Unknown,
