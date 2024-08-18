@@ -6,7 +6,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'Quant-Exec',
 		company: 'Graham Capital Management',
-		description: 'Conducting quantitative research and fostering collaborative efforts to develop alpha on smart execution algorithms by analyzing limit order book dashboards and intraday trading volume data',
+		description: 'Conducted quantitative research and fostering collaborative efforts to develop alpha on smart execution algorithms by analyzing limit order book dashboards and intraday trading volume data',
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Rowayton, CT',
