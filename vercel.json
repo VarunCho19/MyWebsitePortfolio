@@ -1,0 +1,11 @@
+{
+  "buildCommand": "yarn build",
+  "outputDirectory": "build",
+  "framework": "sveltekit",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

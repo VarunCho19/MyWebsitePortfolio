@@ -1,7 +1,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/kit/vite';
 
-const base = process.env.NODE_ENV === 'production' ? '/MyWebsitePortfolio' : '';
+const base = '';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -24,7 +24,7 @@ const config = {
 			'@utils': './src/lib/utils'
 		},
 		paths: {
-			base
+			base: base
 		}
 	}
 };
